@@ -1,4 +1,4 @@
-/*// This function calculates the area of a rectangle
+// This function calculates the area of a rectangle
 function calculateArea(length, width) {
   let area = length * width; // Gts the area of rectangle by multipling width and length
   return area; // Return the calculated area
@@ -9,10 +9,10 @@ let width = 7; // Width of the rectangle
 let area = calculateArea(length, width); // Calling the function to calculate the area
 
 // Displaying the calculated area to the console
-console.log("The area of the rectangle is: " + area);*/
+console.log("The area of the rectangle is: " + area);
 
 
-/*//Declare a global variable 'globalVar' in the global scope
+//Declare a global variable 'globalVar' in the global scope
 var globalVar = "I am a global variable";
 
 //Inside a function, declare a local variable 'localVar' with a different value
@@ -32,10 +32,10 @@ demonstrateScope();
 console.log("Outside the function:");
 console.log("globalVar:", globalVar);
 // Uncommenting the following line would result in an error since 'localVar' is not defined outside the function.
-// console.log("localVar:", localVar);*/
+// console.log("localVar:", localVar);
 
 
-/*function counter() {
+function counter() {
   let count = 0; // Private counter variable
   
   // The inner function, which has access to the count variable due to closure
@@ -56,7 +56,7 @@ console.log("Counter 1:", counter1()); // Output: 1
 console.log("Counter 1:", counter1()); // Output: 2
 
 console.log("Counter 2:", counter2()); // Output: 1
-console.log("Counter 2:", counter2()); // Output: 2*/
+console.log("Counter 2:", counter2()); // Output: 2
 
 
 
